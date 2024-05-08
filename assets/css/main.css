@@ -322,4 +322,105 @@ select:focus {
   font-weight: 400;
   width: 600px;
   margin: 0 auto;
+}
+.track-stock .stock-grid {
+  width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.track-stock .stock-grid img {
+  width: 500px;
+}
+.track-stock .stock-grid .content {
+  padding-top: 10rem;
+}
+.track-stock .stock-grid .content p {
+  font-size: 1.5rem;
+  color: #fff;
+  line-height: 182%;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+.track-stock .stock-grid .content ul {
+  padding-left: 1rem;
+}
+.track-stock .stock-grid .content ul li {
+  font-size: 1.5rem;
+  color: #fff;
+  line-height: 182%;
+  padding-top: 1rem;
+}
+.track-stock .stock-grid .content .buttons {
+  padding-top: 10rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.track-stock .stock-grid .content .buttons .login {
+  background: #404040;
+  display: block;
+  padding: 1.2rem 4.2rem;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 0.7rem;
+  text-transform: uppercase;
+}
+.track-stock .stock-grid .content .buttons .signup {
+  background: #fff;
+  display: block;
+  padding: 1.2rem 4.2rem;
+  color: #000;
+  text-decoration: none;
+  border-radius: 0.7rem;
+  text-transform: uppercase;
+}
+
+.major-problems {
+  padding: 100px 0;
+}
+.major-problems .title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.major-problems .title h3 {
+  font-size: 4rem;
+  color: #000;
+  font-weight: 600;
+  padding-bottom: 2rem;
+}
+.major-problems .title p {
+  font-size: 2rem;
+  color: #000;
+  font-weight: 400;
+  width: 600px;
+  margin: 0 auto;
+}
+.major-problems .problems-grid {
+  width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4.6rem;
+}
+.major-problems .problems-grid .item {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  background: #555555;
+  padding: 6.4rem 3.8rem;
+}
+.major-problems .problems-grid .item .icon img {
+  width: 50px;
+}
+.major-problems .problems-grid .item h4 {
+  font-size: 2.2rem;
+  color: #fff;
+  font-weight: 300;
+  padding-bottom: 30px;
+}
+.major-problems .problems-grid .item p {
+  font-size: 1.5rem;
+  color: #fff;
+  line-height: 182%;
 }/*# sourceMappingURL=main.css.map */

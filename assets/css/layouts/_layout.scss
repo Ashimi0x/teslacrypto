@@ -166,4 +166,121 @@
 			margin: 0 auto;
 		}
 	}
+
+	.stock-grid {
+		width: 1200px;
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+
+		img {
+			width: 500px;
+		}
+
+		.content {
+			padding-top: 10rem;
+			p {
+				font-size: 1.5rem;
+				color: #fff;
+				line-height: 182%;
+				padding-top: 2rem;
+				padding-bottom: 5rem;
+			}
+
+			ul {
+				padding-left: 1rem;
+				li {
+					font-size: 1.5rem;
+					color: #fff;
+					line-height: 182%;
+					padding-top: 1rem;
+				}
+			}
+
+			.buttons {
+				padding-top: 10rem;
+				display: flex;
+				align-items: center;
+				gap: 2rem;
+
+				.login {
+					background: #404040;
+					display: block;
+					padding: 1.2rem 4.2rem;
+					color: #fff;
+					text-decoration: none;
+					border-radius: 0.7rem;
+					text-transform: uppercase;
+				}
+
+				.signup {
+					background: #fff;
+					display: block;
+					padding: 1.2rem 4.2rem;
+					color: #000;
+					text-decoration: none;
+					border-radius: 0.7rem;
+					text-transform: uppercase;
+				}
+			}
+		}
+	}
+}
+
+.major-problems {
+	padding: 100px 0;
+	.title {
+		text-align: center;
+		margin-bottom: 50px;
+
+		h3 {
+			font-size: 4rem;
+			color: #000;
+			font-weight: 600;
+			padding-bottom: 2rem;
+		}
+
+		p {
+			font-size: 2rem;
+			color: #000;
+			font-weight: 400;
+			width: 600px;
+			margin: 0 auto;
+		}
+	}
+
+	.problems-grid {
+		width: 1200px;
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 4.6rem;
+
+		.item {
+			display: flex;
+			align-items: center;
+			gap: 40px;
+			background: #555555;
+			padding: 6.4rem 3.8rem;
+
+			.icon {
+				img {
+					width: 50px;
+				}
+			}
+
+			h4 {
+				font-size: 2.2rem;
+				color: #fff;
+				font-weight: 300;
+				padding-bottom: 30px;
+			}
+
+			p {
+				font-size: 1.5rem;
+				color: #fff;
+				line-height: 182%;
+			}
+		}
+	}
 }
