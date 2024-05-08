@@ -423,4 +423,51 @@ select:focus {
   font-size: 1.5rem;
   color: #fff;
   line-height: 182%;
+}
+
+.the-solution {
+  background: linear-gradient(180deg, #000000 0%, #666666 173.67%);
+  padding: 100px 0;
+}
+.the-solution .title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.the-solution .title h3 {
+  font-size: 4rem;
+  color: #fff;
+  font-weight: 600;
+  padding-bottom: 2rem;
+}
+.the-solution .title p {
+  font-size: 1.6rem;
+  color: #fff;
+  font-weight: 300;
+  width: 800px;
+  margin: 0 auto;
+}
+.the-solution .solution-flex {
+  width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 5rem;
+}
+.the-solution .solution-flex .item {
+  text-align: center;
+  color: #fff;
+}
+.the-solution .solution-flex .item .icon {
+  padding-bottom: 20px;
+}
+.the-solution .solution-flex .item .icon img {
+  width: 70px;
+}
+.the-solution .solution-flex .item h4 {
+  padding-bottom: 2rem;
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+.the-solution .solution-flex .item p {
+  font-size: 1.6rem;
 }/*# sourceMappingURL=main.css.map */
