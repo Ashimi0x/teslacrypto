@@ -521,4 +521,31 @@ select:focus {
 .user-reviews .review-grid .item p {
   font-size: 1.6rem;
   color: #000;
+}
+
+.clients {
+  background: #eeeeee;
+  padding: 100px 0;
+}
+.clients__inner {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.clients__inner img {
+  height: 40px;
+}
+
+.ads {
+  background: #fff;
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ads img {
+  width: 700px;
 }/*# sourceMappingURL=main.css.map */
