@@ -1,0 +1,17 @@
+.logos {
+	background: #eeeeee;
+	padding-top: 460px;
+	padding-bottom: 8.7rem;
+
+	&__img {
+		width: 1200px;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		img {
+			height: 40px;
+		}
+	}
+}

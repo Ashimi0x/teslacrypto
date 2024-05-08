@@ -1,0 +1,54 @@
+.header {
+	width: 100%;
+	background: #000;
+	height: 10.6rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 125px;
+
+	.logo {
+		img {
+			width: 150px;
+		}
+	}
+
+	&__menu {
+		display: flex;
+		align-items: center;
+		gap: 6.8rem;
+
+		a {
+			text-decoration: none;
+			color: #fff;
+			font-size: 1.6rem;
+			font-weight: 300;
+		}
+	}
+
+	&__btn {
+		display: flex;
+		align-items: center;
+		gap: 2.9rem;
+
+		&__login {
+			background: #404040;
+			display: block;
+			padding: 1.2rem 4.2rem;
+			color: #fff;
+			text-decoration: none;
+			border-radius: 0.7rem;
+			text-transform: uppercase;
+		}
+
+		&__signup {
+			background: #fff;
+			display: block;
+			padding: 1.2rem 4.2rem;
+			color: #000;
+			text-decoration: none;
+			border-radius: 0.7rem;
+			text-transform: uppercase;
+		}
+	}
+}

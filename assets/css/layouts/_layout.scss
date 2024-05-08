@@ -1,0 +1,169 @@
+.message {
+	width: 1200px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	gap: 9rem;
+	padding: 100px 0;
+
+	img {
+		width: 400px;
+	}
+
+	.content {
+		h3 {
+			font-size: 3.5rem;
+			font-weight: 600;
+			line-height: 156%;
+			padding-bottom: 4.4rem;
+		}
+
+		p {
+			font-size: 1.8rem;
+			line-height: 182%;
+		}
+	}
+}
+
+.how-it-works {
+	background: linear-gradient(180deg, #000000 0%, #666666 173.67%);
+	padding: 100px 0;
+
+	.title {
+		text-align: center;
+
+		h3 {
+			font-size: 4rem;
+			color: #fff;
+			font-weight: 600;
+			padding-bottom: 2rem;
+		}
+
+		p {
+			font-size: 2rem;
+			color: #fff;
+			font-weight: 400;
+		}
+	}
+
+	.works-grid {
+		width: 1200px;
+		margin: 0 auto;
+		margin-top: 10rem;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 5rem;
+
+		.item {
+			background: #555555;
+			border-radius: 23px;
+			padding: 2.5rem;
+			text-align: center;
+
+			h4 {
+				font-size: 2.2rem;
+				font-weight: 500;
+				color: #fff;
+				padding-bottom: 3rem;
+				position: relative;
+				top: -30px;
+			}
+
+			p {
+				font-size: 1.5rem;
+				color: #fff;
+				position: relative;
+				top: -30px;
+			}
+
+			.icon {
+				position: relative;
+				top: -70px;
+			}
+		}
+	}
+}
+
+.what-is-tesla-coin {
+	padding: 10rem 0;
+
+	.title {
+		text-align: center;
+		margin-bottom: 50px;
+
+		h3 {
+			font-size: 4rem;
+			color: #000;
+			font-weight: 600;
+			padding-bottom: 2rem;
+		}
+
+		p {
+			font-size: 2rem;
+			color: #000;
+			font-weight: 400;
+			width: 600px;
+			margin: 0 auto;
+		}
+	}
+
+	.what-grid {
+		width: 1200px;
+		margin: auto;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+
+		.item {
+			background-color: #444040;
+			padding: 5.3rem 4.2rem;
+			text-align: center;
+
+			&:first-child {
+				background: #555555;
+			}
+
+			&:last-child {
+				background: #333030;
+			}
+
+			h4 {
+				font-size: 2.2rem;
+				color: #fff;
+				font-weight: 300;
+				padding-bottom: 2rem;
+			}
+
+			p {
+				font-size: 1.5rem;
+				color: #fff;
+				line-height: 182%;
+				padding-top: 2rem;
+			}
+		}
+	}
+}
+
+.track-stock {
+	background: linear-gradient(180deg, #000000 0%, #666666 173.67%);
+	padding: 100px 0;
+	.title {
+		text-align: center;
+		margin-bottom: 50px;
+
+		h3 {
+			font-size: 4rem;
+			color: #fff;
+			font-weight: 600;
+			padding-bottom: 2rem;
+		}
+
+		p {
+			font-size: 2rem;
+			color: #fff;
+			font-weight: 400;
+			width: 600px;
+			margin: 0 auto;
+		}
+	}
+}
