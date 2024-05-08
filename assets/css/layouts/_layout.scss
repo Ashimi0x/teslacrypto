@@ -338,3 +338,62 @@
 		}
 	}
 }
+
+.user-reviews {
+	background: linear-gradient(180deg, #000000 0%, #666666 173.67%);
+	padding: 100px 0;
+
+	.title {
+		text-align: center;
+		margin-bottom: 50px;
+
+		h3 {
+			font-size: 4rem;
+			color: #fff;
+			font-weight: 600;
+			padding-bottom: 2rem;
+		}
+
+		p {
+			font-size: 1.6rem;
+			color: #fff;
+			font-weight: 300;
+			width: 600px;
+			margin: 0 auto;
+		}
+	}
+
+	.review-grid {
+		width: 1200px;
+		margin: auto;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 40px;
+
+		.item {
+			background: #ffffff;
+			padding: 50px 40px;
+			border-radius: 1.6rem;
+
+			.position {
+				padding-bottom: 3rem;
+				h5 {
+					font-size: 20px;
+					color: #000000;
+					font-weight: 400;
+				}
+
+				span {
+					font-size: 1.6rem;
+					color: #000000;
+					font-weight: 300;
+				}
+			}
+
+			p {
+				font-size: 1.6rem;
+				color: #000;
+			}
+		}
+	}
+}
