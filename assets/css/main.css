@@ -663,8 +663,10 @@ select:focus {
   max-width: 100%;
   margin: 0 auto;
   padding-top: 100px;
+  padding-bottom: 80px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 5rem;
 }
 .footer-inner .footer-about img {
   width: 200px;
@@ -673,4 +675,34 @@ select:focus {
   padding-top: 3rem;
   color: #fff;
   font-size: 1.6rem;
+}
+.footer-inner .footer-link h4 {
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: #fff;
+  padding-bottom: 5rem;
+}
+.footer-inner .footer-link .links {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.footer-inner .footer-link .links a {
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: 300;
+}
+.footer .sub-footer {
+  border-top: 2px solid #ffffff;
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 5rem 0;
+  text-align: center;
+}
+.footer .sub-footer p {
+  font-size: 1.6rem;
+  color: #fff;
+  font-weight: 300;
 }/*# sourceMappingURL=main.css.map */
