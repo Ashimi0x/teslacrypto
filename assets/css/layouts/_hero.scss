@@ -3,6 +3,10 @@
 	height: 800px;
 	background: linear-gradient(180deg, #000000 0%, #666666 173.67%);
 
+	@media screen and (max-width: 768px) {
+		height: 700px;
+	}
+
 	&__inner {
 		width: 100%;
 		height: 800px;
@@ -11,9 +15,11 @@
 		background-position: top;
 		background-size: cover;
 		position: relative;
+		padding: 1rem;
 
 		h1 {
 			width: 800px;
+			max-width: 100%;
 			margin: 0 auto;
 			padding-top: 100px;
 			text-align: center;
@@ -22,15 +28,24 @@
 			line-height: 156%;
 			padding-bottom: 3rem;
 			font-weight: 600;
+
+			@media screen and (max-width: 768px) {
+				font-size: 3rem;
+			}
 		}
 
 		p {
 			width: 714px;
+			max-width: 100%;
 			margin: 0 auto;
 			font-size: 1.8rem;
 			color: #fff;
 			text-align: center;
 			line-height: 182%;
+
+			@media screen and (max-width: 768px) {
+				font-size: 1.5rem;
+			}
 		}
 
 		.email-form {
@@ -42,6 +57,7 @@
 
 			input {
 				width: 300px;
+				max-width: 100%;
 				height: 55px;
 				background: #2b2b2b;
 				border: 2px solid #ffffff;
@@ -51,6 +67,10 @@
 				font-size: 1.6rem;
 				color: #dbdbdb;
 				font-weight: 300;
+
+				@media screen and (max-width: 768px) {
+					width: 250px;
+				}
 
 				&::placeholder {
 					color: #dbdbdb;
@@ -74,6 +94,12 @@
 			align-items: center;
 			justify-content: center;
 			padding-top: 100px;
+
+			img {
+				@media screen and (max-width: 768px) {
+					width: 100%;
+				}
+			}
 		}
 	}
 }

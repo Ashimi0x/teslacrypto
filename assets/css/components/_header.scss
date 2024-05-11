@@ -7,6 +7,10 @@
 	justify-content: space-between;
 	padding: 0 125px;
 
+	@media screen and (max-width: 768px) {
+		padding: 0 3.5rem;
+	}
+
 	.logo {
 		img {
 			width: 150px;
@@ -50,5 +54,27 @@
 			border-radius: 0.7rem;
 			text-transform: uppercase;
 		}
+	}
+}
+
+.mobile-menu {
+	display: none;
+}
+
+@media screen and (max-width: 768px) {
+	.header__menu,
+	.header__btn {
+		display: none;
+	}
+
+	.mobile-menu {
+		display: block;
+		background: none;
+		border: none;
+		cursor: pointer;
+	}
+
+	.header .logo img {
+		width: 130px;
 	}
 }
