@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Material Icon -->
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+			rel="stylesheet" />
+
+		<!-- Custom Css -->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<title>Dashboard</title>
+	</head>
+	<body>
+		<div class="web-container">
+			<aside>
+				<div class="top">
+					<div class="logo">
+						<img
+							src="assets/img/Tesla-coin-invest.png"
+							alt="logo"
+							width="70px" />
+					</div>
+
+					<div class="close" id="close-btn">
+						<span class="material-icons-sharp"> close </span>
+					</div>
+				</div>
+
+				<div class="sidebar">
+					<a href="/">
+						<img src="/assets/img/home.png" alt="" />
+						<h3>Dashboard</h3>
+					</a>
+
+					<a href="fund-account.html">
+						<img src="/assets/img/money.png" alt="" />
+						<h3>Fund Account</h3>
+					</a>
+
+					<a href="withdraw-funds.html">
+						<img src="/assets/img/withdraw.png" alt="" />
+						<h3>Withdraw Funds</h3>
+					</a>
+
+					<a href="profit-record.html" class="active">
+						<img src="/assets/img/profit.png" alt="" />
+						<h3>Profit Records</h3>
+					</a>
+
+					<a href="transactions.html">
+						<img src="/assets/img/order-history.png" alt="" />
+						<h3>Transaction History</h3>
+					</a>
+
+					<a href="stock.html">
+						<img src="/assets/img/product.png" alt="" />
+						<h3>Stock</h3>
+					</a>
+
+					<a href="support.html">
+						<img src="/assets/img/customer-service.png" alt="" />
+						<h3>Help/Support</h3>
+					</a>
+				</div>
+			</aside>
+			<!-- End of sidebar -->
+			<main>
+				<div class="top">
+					<button id="menu-btn" class="menu-btn">
+						<span class="material-icons-sharp">menu</span>
+					</button>
+
+					<div class="header-breadcrumb"></div>
+					<button class="user-info">
+						<img src="/assets/img/user1.png" alt="" />
+					</button>
+				</div>
+				<div class="main-content">
+					<div class="page-title">
+						<h3>Your ROI History</h3>
+						<p>Up-to-date record of profits</p>
+					</div>
+
+					<div class="dashboard__card">
+						<table>
+							<thead>
+								<tr>
+									<th>Stock</th>
+									<th>Amount</th>
+									<th>Type</th>
+									<th>Date Created</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Data 1</td>
+									<td>Data 2</td>
+									<td>Data 2</td>
+									<td>Data 2</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<div class="pagination">
+							<span> Showing 0 to 0 of 0 entries</span>
+
+							<div class="pagination-btn">
+								<button>Previous</button>
+								<button>Next</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="footer">
+						<p>© TeslaCoinInvest 2024. All rights reserved.</p>
+					</div>
+				</div>
+			</main>
+		</div>
+
+		<!-- Ionic Icons -->
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script
+			nomodule
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+		<!-- Custom Js -->
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>

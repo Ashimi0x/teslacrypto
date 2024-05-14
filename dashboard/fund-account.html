@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Material Icon -->
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+			rel="stylesheet" />
+
+		<!-- Custom Css -->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<title>Dashboard</title>
+	</head>
+	<body>
+		<div class="web-container">
+			<aside>
+				<div class="top">
+					<div class="logo">
+						<img
+							src="assets/img/Tesla-coin-invest.png"
+							alt="logo"
+							width="70px" />
+					</div>
+
+					<div class="close" id="close-btn">
+						<span class="material-icons-sharp"> close </span>
+					</div>
+				</div>
+
+				<div class="sidebar">
+					<a href="/">
+						<img src="/assets/img/home-active.png" alt="" />
+						<h3>Dashboard</h3>
+					</a>
+
+					<a href="fund-account.html" class="active">
+						<img src="/assets/img/money.png" alt="" />
+						<h3>Fund Account</h3>
+					</a>
+
+					<a href="withdraw-funds.html">
+						<img src="/assets/img/withdraw.png" alt="" />
+						<h3>Withdraw Funds</h3>
+					</a>
+
+					<a href="profit-record.html">
+						<img src="/assets/img/profit.png" alt="" />
+						<h3>Profit Records</h3>
+					</a>
+
+					<a href="transactions.html">
+						<img src="/assets/img/order-history.png" alt="" />
+						<h3>Transaction History</h3>
+					</a>
+
+					<a href="stock.html">
+						<img src="/assets/img/product.png" alt="" />
+						<h3>Stock</h3>
+					</a>
+
+					<a href="support.html">
+						<img src="/assets/img/customer-service.png" alt="" />
+						<h3>Help/Support</h3>
+					</a>
+				</div>
+			</aside>
+			<!-- End of sidebar -->
+			<main>
+				<div class="top">
+					<button id="menu-btn" class="menu-btn">
+						<span class="material-icons-sharp">menu</span>
+					</button>
+
+					<div class="header-breadcrumb"></div>
+					<button class="user-info">
+						<img src="/assets/img/user1.png" alt="" />
+					</button>
+				</div>
+				<div class="main-content">
+					<div class="page-title">
+						<h3>Fund Your Accounth</h3>
+						<p>Deposit fund into your portfolio</p>
+					</div>
+
+					<div class="dashboard__card">
+						<div class="form-box">
+							<label for="">Enter Amount</label>
+
+							<div class="custom-input">
+								<img src="/assets/img/dollar.png" alt="" />
+								<input type="text" placeholder="Enter Amount" />
+							</div>
+						</div>
+
+						<div class="payment-method">
+							<p>Choose Payment Method from the list below</p>
+
+							<div class="container">
+								<label class="option">
+									<input type="radio" name="option" class="radio" />
+									<img src="/assets/img/tether-usdt-logo 1.png" alt="" />
+									<span class="label">USDT</span>
+								</label>
+								<label class="option">
+									<input type="radio" name="option" class="radio" />
+									<img src="/assets/img/bitcoin-btc-logo 1.png" alt="" />
+									<span class="label">Bitcoin</span>
+								</label>
+							</div>
+						</div>
+
+						<a href="fund-account-details.html" class="submit-btn"
+							>Proceed to payment
+						</a>
+					</div>
+
+					<div class="footer">
+						<p>© TeslaCoinInvest 2024. All rights reserved.</p>
+					</div>
+				</div>
+			</main>
+		</div>
+
+		<!-- Ionic Icons -->
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script
+			nomodule
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+		<!-- Custom Js -->
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>
